@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Заметки|Напоминалки</string>
+    <string name="CreateTodo">Создать</string>
+    <string name="EditTodo">Редактирование</string>
+    <string name="btnAdds">Добавить Заметку/Напоминалку</string>
+    <string name="delete">Удалить Заметку/Напоминалку</string>
+    <string name="Note">Заметки</string>
+    <string name="Reminder">Напоминалки</string>
+    <string name="dialogThema"> Тема должна содержать не менее 1 символа / числа. В теме должно быть не более 20 символов / цифр.Пробелы тоже учитываются</string>
+    <string name="dialogTime">Измените время с прошлого на будущее</string>
+    <string name="Message">Сообщение</string>
+    <string name="Notes">Здесь будут ваши записки</string>
+    <string name="Reminders">Здесь будут ваши напоминалки</string>
+    <string name="hintDescription">Описание</string>
+    <string name="hintThema">Тема</string>
+    <string name="yes">да</string>
+    <string name="no">нет</string>
+    <string name="ReminderTodo">Напомни мне</string>
+    <string name="messageDelete">Вы уверены что хотите удалить запись ?</string>
+    <string name="MyThema">Mоя тема</string>
+    <string name="NoteOne">Заметка</string>
+</resources>

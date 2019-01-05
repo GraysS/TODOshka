@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ideath.todoshka">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/note"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.CreateTodoActivity"
+            android:parentActivityName=".activity.MainActivity" />
+
+        <receiver
+            android:name=".Service.MyAlarmReceiver"
+            android:process=".newproc"></receiver>
+
+        <service
+            android:name=".Service.TodoMessageService"
+            android:exported="true"
+            android:process=".newproc" />
+
+    </application>
+
+</manifest>

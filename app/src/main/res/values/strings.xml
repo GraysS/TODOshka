@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notes|Reminders</string>
+    <string name="CreateTodo">Create a note / reminder</string>
+    <string name="EditTodo">Edit note /reminder</string>
+    <string name="btnAdds">Add Note/Reminder</string>
+    <string name="delete">Delete Note/Reminder</string>
+    <string name="Note">Notes</string>
+    <string name="Reminder">Reminders</string>
+    <string name="dialogThema">The subject must contain at least 1 character / number. The topic must be no more than 20 characters / numbers.Spaces are also taken into account.</string>
+    <string name="dialogTime">Change the time from past to future.</string>
+    <string name="Message">Message</string>
+    <string name="Notes">Here will be your notes</string>
+    <string name="Reminders">Your reminders will be here</string>
+    <string name="hintDescription">Description</string>
+    <string name="hintThema">Thema</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="ReminderTodo">remind me</string>
+    <string name="messageDelete">Are you sure you want to delete the record ?</string>
+    <string name="MyThema">My theme</string>
+    <string name="NoteOne">Note</string>
+</resources>
